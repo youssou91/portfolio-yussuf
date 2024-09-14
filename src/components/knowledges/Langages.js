@@ -3,18 +3,19 @@ import BarProgess from './BarProgess';
 class Langages extends Component {
     state = {
         languages: [
-            {id:1, value: "Javascript", xp: 0.9},
-            {id:2, value: "Css", xp: 2},
-            {id:3, value: "Html", xp: 2},
-            {id:4, value: "Php", xp: 0.7},
-            {id:5, value: "Typscript", xp: 1}
+            // {id:3, value: "Html & Css", xp: 1.8},
+            {id:1, value: "JavaScript", xp: 1.2},
+            {id:2, value: "Java", xp: 0.5},
+            {id:4, value: "Php", xp: 1.1},
+            {id:5, value: "C#", xp: 1},
+            {id:6, value: "Kotlin", xp: 0.4}
         ],
         frameWorks: [
-            {id: 1, value: "React", xp: 0.6},
-            {id: 1, value: "Bootstrap", xp: 2},
-            {id: 3, value: "Angular", xp: 1.5},
-            {id: 4, value: "WordPress", xp: 1.9},
-            {id: 5, value: "Code Igniter", xp: 0.6},
+            {id: 1, value: "NodeJS", xp: 1.3},
+            // {id: 1, value: "Bootstrap", xp: 2},
+            {id: 3, value: "Angular", xp: 1.0},
+            {id: 4, value: "React", xp: 1.6},
+            {id: 5, value: "Synphony", xp: 0.6},
         ]
     }
 
