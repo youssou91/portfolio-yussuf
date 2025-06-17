@@ -5,7 +5,7 @@ export const portfolioData = [
     languages: ['javascript','php'],
     languagesIcons: ['fab fa-js','fab fa-php'],
     source: 'http://www.github.com',
-    info: 'Ce site e-commerce est conçu avec PHP en programmation procédurale, où le code est structuré en fonctions sans la modularité des objets. La base de données, souvent construite en MySQL, stocke les informations des produits, utilisateurs, commandes et paiements. Les opérations s\’effectuent par requêtes SQL directes, et les données sont affichées dynamiquement à l\'aide de PHP intégré dans des fichiers HTML/CSS pour générer les pages.',
+    info: 'Ce site e-commerce est conçu avec PHP en programmation procédurale, où le code est structuré en fonctions sans la modularité des objets. La base de données, souvent construite en MySQL, stocke les informations des produits, utilisateurs, commandes et paiements. Les opérations s’effectuent par requêtes SQL directes, et les données sont affichées dynamiquement à l\'aide de PHP intégré dans des fichiers HTML/CSS pour générer les pages.',
     picture: './media/imagephp1.png'
   },
   {
@@ -50,7 +50,7 @@ export const portfolioData = [
     languages: ['javascript', 'react'],
     languagesIcons: ['fab fa-js','fab fa-react'],
     source: 'http://www.github.com',
-    info: 'Un site d\’e-learning développé avec React est une application web interactive et dynamique, où les utilisateurs peuvent s\'inscrire, suivre des cours, et interagir avec du contenu pédagogique en temps réel. Avec React, le site profite d\'une expérience utilisateur fluide, grâce aux composants réutilisables et à la mise à jour rapide de l\'interface sans rechargement de page',
+    info: 'Un site d’e-learning développé avec React est une application web interactive et dynamique, où les utilisateurs peuvent s’inscrire, suivre des cours, et interagir avec du contenu pédagogique en temps réel. Avec React, le site profite d’une expérience utilisateur fluide, grâce aux composants réutilisables et à la mise à jour rapide de l’interface sans rechargement de page',
     picture: './media/imageEL.png'
   },
   {

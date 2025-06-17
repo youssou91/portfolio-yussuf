@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter , Routes , Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import NotFund from './pages/NotFund';
@@ -8,16 +8,14 @@ import Knowledges from './pages/Knowledges';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" exact element={<Home/>}/>
-        <Route path="/contact" exact element={<Contact/>}/>
-        <Route path="/competence" exact element={<Knowledges/>}/>
-        <Route path="/portfolio" exact element={<Portfolio/>}/>
-        <Route  component={NotFund}/>
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/competence" element={<Knowledges />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="*" element={<NotFund />} />
+    </Routes>
   );
-};
+}
 
 export default App;
