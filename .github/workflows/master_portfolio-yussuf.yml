@@ -21,7 +21,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
-          node-version: '22.x'
+          node-version: '20.x'
 
       - name: npm install, build, and test
         run: |
@@ -41,9 +41,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
       id-token: write #This is required for requesting the JWT
       contents: read #This is required for actions/checkout
@@ -60,9 +57,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_8C2199C1DC15425F8223249DBD92F640 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A7C1D9C915FB4B0E921C21B0DAE31E47 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_BB2B28E4106C4BC89B397F67059447C6 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_46CE163151CB4BD38E698B01A5F3AB42 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_FF3671826D3741418DCC11F58AACA3C1 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_7DAC5D16D6FF4CDBA262276967DA4736 }}
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
