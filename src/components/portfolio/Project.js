@@ -39,7 +39,7 @@ export default class Project extends Component {
                                 </div>
                                 <p className='text'>{info} </p>
                                 <div className='button return' onClick={this.handleInfo}>
-                                    Rerour
+                                    Retour
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,7 @@ const Hobbies = () => {
             <ul>
                 <li className='hobby'>
                     <i className='fas fa-running'></i>
-                    <span>Cours à pieds</span>
+                    <span>Rendonnee </span>
                 </li>
                 <li className='hobby'>
                     <i className='fas fa-futbol'></i>

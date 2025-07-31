@@ -27,15 +27,15 @@ const OtherSkills = () => {
                     <li>
                        <i className="fas fa-check-square"></i>&nbsp;
                        
-                       Figma 
+                          Trello 
                    </li>
                    <li>
                        <i className="fas fa-check-square"></i>&nbsp;
-                       Design
+                       Azure
                    </li>
                    <li>
                        <i className="fas fa-check-square"></i>&nbsp;
-                       Photoshop
+                          Postman
                    </li>
                    <li>
                        <i className='fas fa-check-square'></i>&nbsp;
